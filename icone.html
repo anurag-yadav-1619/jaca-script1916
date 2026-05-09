@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>App Icon Design</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#cf660b,#b1d309,#1d3c5e);
+}
+
+.icon-box{
+    width:320px;
+    height:320px;
+    background:linear-gradient(135deg,#961694,#127e5f);
+    border-radius:50px;
+    position:relative;
+    box-shadow:0 15px 30px rgba(0,0,0,0.4);
+}
+
+/* Outer circle */
+.circle{
+    position:absolute;
+    width:220px;
+    height:220px;
+    border:18px solid rgb(53, 17, 232);
+    border-top-color:transparent;
+    border-radius:50%;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+/* Arrow stem */
+.stem{
+    position:absolute;
+    width:22px;
+    height:120px;
+    background:rgb(215, 7, 7);
+    top:70px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+/* Arrow head */
+.head{
+    position:absolute;
+    width:70px;
+    height:70px;
+    border-left:22px solid white;
+    border-bottom:22px solid white;
+    transform:rotate(-45deg);
+    top:145px;
+    left:125px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="icon-box">
+    <div class="circle"></div>
+    <div class="stem"></div>
+    <div class="head"></div>
+</div>
+
+</body>
+</html>
