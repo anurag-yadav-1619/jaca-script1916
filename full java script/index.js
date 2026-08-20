@@ -21,19 +21,19 @@
 
 // array ,object,functions
  
-let a=12;
-a+=1;
-console.log(a)
-a-=1;
-console.log(a)
-a*=2;
-console.log(a)
-a/=4;
-console.log(a)
-a**=1004567
-console.log(a)
-a%=4325;
-console.log(a)
+// let a=12;
+// a+=1;
+// console.log(a)
+// a-=1;
+// console.log(a)
+// a*=2;
+// console.log(a)
+// a/=4;
+// console.log(a)
+// a**=1004567
+// console.log(a)
+// a%=4325;
+// console.log(a)
 
 
 
