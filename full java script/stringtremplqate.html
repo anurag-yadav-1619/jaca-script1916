@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>  stringtemplate</h1>
+    <script>
+        let firstname="anurag";
+        let lastname="yadav";
+        console.log("my firstname is "+ firstname)
+        console.log("my firstname is "+ lastname)
+        console.log(`my name: ${firstname}${lastname}`);
+        let first="anurag";
+        let last="yadav";
+        function fullname(first ,last)
+        {
+            return`${first}${last}`
+        }
+        let name=`hello ${fullname(firstname,lastname)}`;
+        console.log(name)
+
+    </script>
+</body>
+</html>

@@ -3,7 +3,7 @@
 // console.dir(h1)
 
 
- let h1=document.createElement("h1");
- h1.textContent="hello ji kncibdvuebeivbiuvbsivbssivbds";
- document.querySelector("body").prepend(h1)
+//  let h1=document.createElement("h1");
+//  h1.textContent="hello ji kncibdvuebeivbiuvbsivbssivbds";
+//  document.querySelector("body").prepend(h1)
  
