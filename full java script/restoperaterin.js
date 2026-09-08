@@ -29,8 +29,15 @@
 // sum(...as)
 
 
-
-
+//             object litrals
+let name='anurag'
+let rollnumber=101
+let data={
+    name,
+    rollnumber
+}
+console.log(data.name)
+console.log(data.rollnumber)
 
 
 
